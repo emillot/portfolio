@@ -22,6 +22,7 @@ header{
     text-decoration:none;
 }
 body{
+    font-family: Verdana;
     text-align: center;
     background-color: rgb(244, 255, 173);
     margin: 0;
