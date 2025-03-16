@@ -32,6 +32,16 @@ body{
 .Projets{
     padding-top: 5px;
 }
+.Presentation a{
+    padding-inline: 2em;
+    display: block;
+    text-align: left;
+}
+.Parcours a{
+    padding-inline: 2em;
+    display: block;
+    text-align: left;
+}
 .Contact{
     margin: auto;
     margin-top: 15%;
