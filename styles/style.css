@@ -17,6 +17,11 @@ header{
     border-color: white;
     border-style: solid;
 }
+h2{
+    background-color: brown;
+    border-style: inset;
+    border-width: 5px
+}
 .lien{
     color: white;
     text-decoration:none;
