@@ -38,8 +38,8 @@ body{
     padding-top: 5px;
 }
 .Projet{
-    padding-inline: 100px;
-    background-color: brown;
+    margin-inline: 100px;
+    background: rgb(200,215,200);
 }
 .Presentation a{
     padding-inline: 2em;
