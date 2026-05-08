@@ -38,9 +38,9 @@ body{
     padding-top: 5px;
 }
 .Projet{
-    margin-inline: 100px;
+    margin-inline: 6em;
     background: rgb(200,215,200);
-    padding-inline: 50px;
+    padding-inline: 1em;
     text-align: left;
 }
 h2 {
