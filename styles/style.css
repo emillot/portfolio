@@ -20,7 +20,7 @@ header{
 h2{
     background-color: brown;
     border-style: inset;
-    border-width: 5px
+    border-width: 5px;
 }
 .lien{
     color: white;
@@ -28,11 +28,11 @@ h2{
 }
 body{
     font-family: Verdana;
-    text-align: center;
     background-color: rgb(244, 255, 173);
     margin: 0;
     padding: 0;
     padding-bottom: 4em;
+    text-align: center;
 }
 .Projets{
     padding-top: 5px;
@@ -40,6 +40,14 @@ body{
 .Projet{
     margin-inline: 100px;
     background: rgb(200,215,200);
+    padding-inline: 50px;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+}
+.Media{
+    text-align: center;
 }
 .Presentation a{
     padding-inline: 2em;
