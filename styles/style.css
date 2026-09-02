@@ -18,7 +18,8 @@ header{
     border-style: solid;
 }
 h2{
-    background-color: brown;
+    background: #0b082e;
+    background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
     border-style: inset;
     border-width: 5px;
     color: white;
@@ -29,7 +30,9 @@ h2{
 }
 body{
     font-family: Verdana;
-    background-color: rgb(244, 255, 173);
+    background: #2b275c;
+    background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
+    color: rgb(255,255,255);
     margin: 0;
     padding: 0;
     padding-bottom: 4em;
@@ -39,10 +42,12 @@ body{
     padding-top: 5px;
 }
 .Projet{
-    margin-inline: 6em;
-    background: rgb(200,215,200);
-    padding-inline: 1em;
+    background: #0b082e;
+    background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
     text-align: left;
+}
+.Projet a{
+    padding-inline: 2em;
 }
 h2 {
     text-align: center;
