@@ -46,7 +46,7 @@ body{
     background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
     text-align: left;
 }
-.Projet a{
+.Contenu {
     padding-inline: 2em;
 }
 h2 {
