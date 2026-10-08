@@ -90,7 +90,7 @@ body{
     background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
     border-style: inset;
     border-width: 5px;
-    width: 300px;
+    width: 500px;
     display: block;
     position: relative;
     box-sizing: inherit;
