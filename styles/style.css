@@ -92,6 +92,8 @@ body{
 }
 .Sprite{
     text-align: center;
+    margin-inline: auto;
+    display: block;
 }
 .Contact{
     margin: auto;
