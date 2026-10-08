@@ -55,6 +55,9 @@ h2 {
     padding-left: 100px;
     width: 300px;
     text-align: left;
+    background: #0b082e;
+    background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    height: max-content;
 }
 .imagecontact{
     vertical-align: middle;
@@ -64,9 +67,6 @@ h2 {
 .contacts{
     color: black;
     text-decoration: none;
-    background: #0b082e;
-    background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
-    height: max-content;
 }
 li{
     list-style-type: none;
