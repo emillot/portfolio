@@ -22,7 +22,6 @@ header{
     border-style: solid;
     display: block;
     box-sizing: inherit;
-    /*! padding-bottom: 3em; */
 }
 h1{
     display:block;
@@ -37,6 +36,9 @@ h2{
     border-style: inset;
     border-width: 5px;
     color: white;
+    display: block;
+    padding: 0;
+    margin: 0;
 }
 .lien{
     color: white;
@@ -59,10 +61,19 @@ body{
     margin: 0;
     box-sizing: inherit;
 }
+.Presentation{
+    display:block;
+    box-sizing: inherit;
+}
+.Parcours{
+    display:block;
+    box-sizing: inherit;
+}
 .Accueil{
     background: #2b275c;
     background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
-    padding-bottom: 7%;
+    /*! padding-bottom: 7%; */
+    box-sizing: inherit;
 }
 .Projets{
     background: #2b275c;
