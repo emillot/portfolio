@@ -38,6 +38,8 @@ body{
 }
 .Projets{
     padding-top: 5px;
+    background: #2b275c;
+    background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
 }
 .Projet{
     background: #0b082e;
@@ -46,8 +48,6 @@ body{
 }
 .Contenu {
     padding-inline: 2em;
-    background: #2b275c;
-    background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
 }
 .Media{
     text-align: center;
