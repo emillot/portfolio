@@ -25,12 +25,16 @@ h2{
 }
 body{
     font-family: Verdana;
-    background: #2b275c;
-    background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
+    background: rgb(30,30,80);
     color: rgb(255,255,255);
     margin: 0;
     padding: 0;
     text-align: center;
+}
+.Accueil{
+    background: #2b275c;
+    background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
+    padding-bottom: 3em;
 }
 .Projets{
     padding-top: 5px;
@@ -44,9 +48,8 @@ body{
 }
 .Contenu {
     padding-inline: 2em;
-}
-h2 {
-    text-align: center;
+    background: #2b275c;
+    background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
 }
 .Media{
     text-align: center;
@@ -75,7 +78,6 @@ li{
     list-style-type: none;
 }
 footer {
-    margin-top: 3em;
     background-color: black;
     text-align: center;
     color: white;
