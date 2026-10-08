@@ -87,6 +87,11 @@ body{
 }
 .Media{
     text-align: center;
+    margin-inline: auto;
+    display: flex;
+}
+.Sprite{
+    text-align: center;
 }
 .Contact{
     margin: auto;
