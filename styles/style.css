@@ -127,15 +127,3 @@ footer {
     width: 100%;
     box-sizing: inherit;
 }
-
-@media (hover: hover) {
-    .lien{
-        color:red;
-    }
-}
-
-@media screen and (max-width: 800px) {
-  body{
-    font-size: 25px;
-  }
-}
