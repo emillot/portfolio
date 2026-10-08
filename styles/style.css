@@ -128,7 +128,13 @@ footer {
     box-sizing: inherit;
 }
 
-@media screen and (max-width: 50rem) {
+@media (hover: hover) {
+    .lien{
+        color:red;
+    }
+}
+
+@media screen and (max-width: 800px) {
   body{
     font-size: 25px;
   }
