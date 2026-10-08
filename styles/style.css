@@ -52,8 +52,7 @@ h2 {
 .Contact{
     margin: auto;
     margin-top: 15%;
-    padding-left: 100px;
-    width: 300px;
+    padding: 3em;
     text-align: left;
     background: #0b082e;
     background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
