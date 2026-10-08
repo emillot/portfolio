@@ -13,6 +13,7 @@ header{
     border-style: solid;
 }
 h2{
+    text-align: center;
     background: #0b082e;
     background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
     border-style: inset;
