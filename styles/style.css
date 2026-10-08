@@ -57,7 +57,9 @@ h2 {
     text-align: left;
     background: #0b082e;
     background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
-    height: max-content;
+    border-style: inset;
+    border-width: 5px;
+    color: white;
 }
 .imagecontact{
     vertical-align: middle;
@@ -72,6 +74,7 @@ li{
     list-style-type: none;
 }
 footer {
+    margin-top: 3em;
     background-color: black;
     text-align: center;
     color: white;
