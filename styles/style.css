@@ -80,7 +80,9 @@ body{
     text-align: left;
 }
 .Contenu {
+    padding-top: 1em;
     padding-inline: 2em;
+    padding-bottom: 1em;
 }
 .Media{
     text-align: center;
