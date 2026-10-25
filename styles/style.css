@@ -1,135 +1,199 @@
-html{
-    box-sizing:border-box;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: relative;
-    min-width:100%
-}
-
-header{
-    position:fixed;
-    font-size: larger;
-    background-color: black;
-    color: white;
-    width: 100%;
-    top: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
-    display: block;
-    box-sizing: inherit;
-}
-h1{
-    display:block;
-    box-sizing: inherit;
-    margin-top: 3em;
-}
-h2{
-    text-align: center;
-    background: #0b082e;
-    background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
-    border-style: inset;
-    border-width: 5px;
-    color: white;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-.lien{
-    color: white;
-    text-decoration:none;
-}
-body{
+body {
     font-family: Verdana;
-    background: rgb(30,30,80);
+    background: #0b082e;
+    background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgb(21, 29, 49) 87%, rgb(11, 34, 47) 100%);
     color: rgb(255,255,255);
     margin: 0;
     padding: 0;
     text-align: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    min-width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    min-width: 100vw;
+    box-sizing: inherit;
+}
+header {
+    background-color: rgba(10,10,10);
+    color: white;
+    font-size: larger;
+    text-align: center;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: inherit;
+}
+header .lien:hover {
+    color: rgb(138, 2, 2);
+}
+li {
+    list-style-type: none;
+}
+h1 {
+    text-align: center;
+    background: #0b082e;
+    background: radial-gradient(circle,rgb(16, 12, 63) 0%, rgba(32, 43, 71, 1) 85%, rgba(15, 43, 59, 1) 100%);
+    color: white;
+    display: block;
+    box-sizing: inherit;
+    width: fit-content;
+    margin-inline: auto;
+}
+h2 {
     margin: 0;
-    box-sizing: inherit;
 }
-.Presentation{
-    display:block;
-    box-sizing: inherit;
+.lien {
+    color: white;
+    text-decoration:none;
 }
-.Parcours{
-    display:block;
-    box-sizing: inherit;
+main {
+    display: grid;
+    grid-template-rows: auto;
 }
-.Accueil{
-    background: #2b275c;
-    background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
-    box-sizing: inherit;
+.Introduction {
+    margin: auto;
+    margin-inline: 15%;
 }
-.Projets{
-    background: #2b275c;
-    background: radial-gradient(circle,rgba(43, 39, 92, 1) 0%, rgba(39, 68, 135, 1) 87%, rgba(37, 84, 110, 1) 100%);
-}
-.Projet{
+.Projets {
+    background: rgb(43, 43, 115);
+    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    width: 80vw;
+    display: grid;
+    margin-inline: auto;
+    padding-top: 1em;
     padding-bottom: 1em;
-    text-align: left;
+}
+.Sections {
+    background: rgb(43, 43, 115);
+    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    width: 80vw;
+    display: grid;
+    margin-inline: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.Projet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3vh;
+    margin-inline: 5vw;
+}
+.Section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3vh;
+    margin-inline: 5vw;
+}
+.SectionSprites {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    margin: 3vh;
+    margin-inline: 5vw;
+}
+.AppercuProjet {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    object-fit: cover;
+}
+.AppercuProjetDB {
+    max-width: 400px;
+    min-width: 300px;
+    height: 300px;
+    margin: auto;
+    object-fit: cover;
+}
+.AppercuProjetSpecial {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+.AppercuProjetSupport {
+    width: 300px;
+    margin: auto;
+}
+.AppercuVideoProjet {
+    width: 400px;
+    height: 400px;
+    margin-inline: auto;
+}
+@media (max-width: 1210px){
+    .SectionSprites {
+        grid-template-columns: 1fr auto;
+    }
+}
+@media (max-width: 1200px){
+    .Section {
+        grid-template-columns: auto;
+    }
+    .SectionSprites {
+        grid-template-columns: auto;
+    }
+    
+}
+@media (max-width: 840px){
+    .Projet {
+        grid-template-columns: auto;
+    }
+}
+.CourteDescriptionProjet {
+    padding-top: 1em;
+}
+.BoutonsProjet {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.BoutonProjet {
+    width: 15vw;
+    padding: 10px;
+    background-color: #110c47;
+    border-radius: 5px;
+    font-family: Verdana;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+.BoutonProjet:hover {
+    background-color: #0b082e;
 }
 .Contenu {
-    padding-top: 1em;
-    padding-inline: 2em;
-    padding-bottom: 1em;
+    margin-inline: 5vw;
 }
-.Media{
+.Media {
     text-align: center;
     margin-inline: auto;
     display: flex;
 }
-.Sprite{
-    text-align: center;
-    margin-inline: auto;
-    display: block;
-}
-.Contact{
+.Aproposdemoi {
+    width: 80vw;
     margin: auto;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    background: rgb(43, 43, 115);
+    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+}
+.Contact {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.Coordonnees {
     padding: 3em;
     text-align: left;
-    background: #0b082e;
-    background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
-    border-style: inset;
-    border-width: 5px;
-    width: 500px;
-    display: block;
-    position: relative;
-    box-sizing: inherit;
+    background: rgb(43, 43, 115);
+    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    width: 30vw;
+    margin: auto;
 }
-.imagecontact{
+.imagecontact {
     vertical-align: middle;
     display: inline-block;
     margin-right: 50px;
 }
-.contacts{
+.contacts {
     color: white;
     text-decoration: none;
 }
-li{
-    list-style-type: none;
-}
 footer {
-    background-color: black;
     text-align: center;
     color: white;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
-    margin-top: auto;
-    display: block;
-    width: 100%;
     box-sizing: inherit;
 }
