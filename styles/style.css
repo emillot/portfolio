@@ -109,6 +109,10 @@ main {
     margin: auto;
     object-fit: cover;
 }
+.AppercuPresentation {
+    width: 25vw;
+    margin: auto;
+}
 .AppercuProjetDB {
     max-width: 400px;
     min-width: 300px;
