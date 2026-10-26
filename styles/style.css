@@ -53,12 +53,12 @@ main {
 }
 .Introduction {
     margin: auto;
-    margin-inline: 15%;
+    margin-inline: 20%;
 }
 .Projets {
     background: rgb(43, 43, 115);
     background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
-    width: 80vw;
+    width: 60vw;
     display: grid;
     margin-inline: auto;
     padding-top: 1em;
@@ -67,7 +67,7 @@ main {
 .Sections {
     background: rgb(43, 43, 115);
     background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
-    width: 80vw;
+    width: 60vw;
     display: grid;
     margin-inline: auto;
     padding-top: 1em;
@@ -166,7 +166,7 @@ main {
     display: flex;
 }
 .Aproposdemoi {
-    width: 80vw;
+    width: 60vw;
     margin: auto;
     background: rgb(43, 43, 115);
     background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
