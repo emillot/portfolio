@@ -95,6 +95,9 @@ main {
     margin: 3vh;
     margin-inline: 5vw;
 }
+.ProjetTitre {
+    font-family: 'Phosphate';
+}
 .Section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -173,6 +176,7 @@ main {
     color: white;
     text-decoration: none;
     margin: auto;
+    font-family: 'Impact';
 }
 .BoutonProjet:hover {
     background-color: #0b082e;
