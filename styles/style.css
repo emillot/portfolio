@@ -40,8 +40,20 @@ h1 {
     width: fit-content;
     margin-inline: auto;
 }
+.ProjectTitle {
+    text-align: center;
+    background: #0b082e;
+    background: radial-gradient(circle,rgb(16, 12, 63) 0%, rgba(32, 43, 71, 1) 85%, rgba(15, 43, 59, 1) 100%);
+    color: white;
+    display: block;
+    box-sizing: inherit;
+    width: fit-content;
+    margin-inline: auto;
+    font-family: 'PhosphateFixedSolid';
+}
 h2 {
     margin: 0;
+    font-family: 'Phosphate';
 }
 .lien {
     color: white;
@@ -64,6 +76,10 @@ main {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+.Role {
+    color: lightgrey;
+    font-family: 'fantasy';
+}
 .Sections {
     background: rgb(43, 43, 115);
     background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
@@ -83,17 +99,10 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 3vh;
-    margin-inline: 5vw;
-}
-.SectionSprites {
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    margin: 3vh;
-    margin-inline: 5vw;
 }
 .AppercuProjet {
-    width: 300px;
-    height: 300px;
+    width: 25vw;
+    height: 25vw;
     margin: auto;
     object-fit: cover;
 }
@@ -113,9 +122,9 @@ main {
     margin: auto;
 }
 .AppercuVideoProjet {
-    width: 400px;
-    height: 400px;
-    margin-inline: auto;
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
 }
 @media (max-width: 1210px){
     .SectionSprites {
@@ -138,13 +147,24 @@ main {
 }
 .CourteDescriptionProjet {
     padding-top: 1em;
+    margin-inline: 1vw;
+}
+.CourteDescriptionProjets {
+    padding-top: 1em;
+    margin-inline: 1vw;
+    display: grid;
 }
 .BoutonsProjet {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr;
+}
+.BoutonsProjetDouble {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .BoutonProjet {
-    width: 15vw;
+    max-width: 15vw;
+    min-width: 10vw;
     padding: 10px;
     background-color: #110c47;
     border-radius: 5px;
