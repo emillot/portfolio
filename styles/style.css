@@ -92,6 +92,8 @@ main {
     margin-inline: auto;
     padding-top: 1em;
     padding-bottom: 1em;
+    border-style: hidden;
+    border-radius: 25px;
 }
 .Role {
     color: darkgrey;
@@ -110,6 +112,8 @@ main {
     margin-inline: auto;
     padding-top: 1em;
     padding-bottom: 1em;
+    border-style: hidden;
+    border-radius: 25px;
 }
 .Projet {
     display: grid;
@@ -161,6 +165,8 @@ main {
     margin: auto;
     background: rgb(43, 43, 115);
     background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    border-style: hidden;
+    border-radius: 25px;
 }
 .CourteDescriptionProjet {
     padding-top: 1em;
@@ -214,6 +220,8 @@ main {
     margin: auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    border-style: hidden;
+    border-radius: 25px;
 }
 .imagecontact {
     vertical-align: middle;
