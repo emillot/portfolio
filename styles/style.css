@@ -155,6 +155,12 @@ main {
     height: 25vw;
     margin: auto;
 }
+.Aproposdemoi {
+    width: 60vw;
+    margin: auto;
+    background: rgb(43, 43, 115);
+    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+}
 @media (max-width: 1320px){
     .AppercuProjetDB {
         min-width: 0px;
@@ -167,6 +173,9 @@ main {
         grid-template-columns: 1fr auto;
     }
     .Projets {
+        width: 80vw;
+    }
+    .Aproposdemoi {
         width: 80vw;
     }
 }
@@ -199,6 +208,9 @@ main {
         grid-template-columns: auto;
     }
     .Projets {
+        width: 90vw;
+    }
+    .Aproposdemoi {
         width: 90vw;
     }
 }
@@ -260,12 +272,6 @@ main {
     text-align: center;
     margin-inline: auto;
     display: flex;
-}
-.Aproposdemoi {
-    width: 60vw;
-    margin: auto;
-    background: rgb(43, 43, 115);
-    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
 }
 .Contact {
     display: grid;
