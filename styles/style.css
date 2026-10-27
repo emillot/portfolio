@@ -133,6 +133,8 @@ main {
     height: 25vw;
     margin: auto;
     object-fit: cover;
+    border-style: hidden;
+    border-radius: 25px;
 }
 .AppercuPresentation {
     width: 25vw;
