@@ -1,3 +1,25 @@
+/**Fonts**/
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.spicy-rice-regular {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nabla {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+/**Styles**/
 body {
     font-family: Verdana;
     background: #0b082e;
@@ -11,6 +33,7 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     box-sizing: inherit;
+    font-family: 'Fantasy';
 }
 header {
     background-color: rgba(10,10,10);
@@ -32,32 +55,26 @@ li {
 }
 h1 {
     text-align: center;
-    background: #0b082e;
-    background: radial-gradient(circle,rgb(16, 12, 63) 0%, rgba(32, 43, 71, 1) 85%, rgba(15, 43, 59, 1) 100%);
-    color: white;
     display: block;
     box-sizing: inherit;
     width: fit-content;
     margin-inline: auto;
-}
-.ProjectTitle {
-    text-align: center;
-    background: #0b082e;
-    background: radial-gradient(circle,rgb(16, 12, 63) 0%, rgba(32, 43, 71, 1) 85%, rgba(15, 43, 59, 1) 100%);
-    color: white;
-    display: block;
-    box-sizing: inherit;
-    width: fit-content;
-    margin-inline: auto;
-    font-family: 'PhosphateFixedSolid';
+    padding: 8px;
+    padding-bottom: 0;
+    font-family: 'Nabla';
 }
 h2 {
     margin: 0;
-    font-family: 'Phosphate';
+    font-family: 'Bungee Spice';
 }
 .lien {
     color: white;
     text-decoration:none;
+}
+Header .lien {
+    color: white;
+    text-decoration:none;
+    font-family: 'Copperplate', 'Impact';
 }
 main {
     display: grid;
@@ -77,8 +94,13 @@ main {
     padding-bottom: 1em;
 }
 .Role {
-    color: lightgrey;
-    font-family: 'fantasy';
+    color: darkgrey;
+    font-family: 'Spicy Rice';
+}
+.MiniRole {
+    color: darkgrey;
+    font-family: 'Spicy Rice';
+    font-size: small;
 }
 .Sections {
     background: rgb(43, 43, 115);
@@ -96,7 +118,7 @@ main {
     margin-inline: 5vw;
 }
 .ProjetTitre {
-    font-family: 'Phosphate';
+    font-family: 'Bungee Spice';
 }
 .Section {
     display: grid;
@@ -180,7 +202,7 @@ main {
     color: white;
     text-decoration: none;
     margin: auto;
-    font-family: 'Impact';
+    font-family: 'Copperplate', 'Impact';
 }
 .BoutonProjet:hover {
     background-color: #0b082e;
