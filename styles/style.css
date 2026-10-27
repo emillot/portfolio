@@ -115,7 +115,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 3vh;
-    margin-inline: 5vw;
+    margin-inline: 3vw;
 }
 .ProjetTitre {
     font-family: 'Bungee Spice';
@@ -124,6 +124,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 3vh;
+    margin-inline: 3vw;
 }
 .AppercuProjet {
     width: 25vw;
@@ -160,6 +161,82 @@ main {
     margin: auto;
     background: rgb(43, 43, 115);
     background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+}
+.CourteDescriptionProjet {
+    padding-top: 1em;
+    margin-inline: 1vw;
+}
+.CourteDescriptionProjets {
+    padding-top: 1em;
+    margin-inline: 1vw;
+    display: grid;
+}
+.BoutonsProjet {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.BoutonsProjetDouble {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.BoutonProjet {
+    max-width: 15vw;
+    min-width: 10vw;
+    padding: 10px;
+    background-color: #110c47;
+    border-radius: 5px;
+    font-family: Verdana;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    font-family: 'Copperplate', 'Impact';
+}
+.BoutonProjet:hover {
+    background-color: #0b082e;
+}
+.Contenu {
+    margin-inline: 5vw;
+}
+.Media {
+    text-align: center;
+    margin-inline: auto;
+    display: flex;
+}
+.Contact {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.Coordonnees {
+    padding: 5vw;
+    text-align: left;
+    background: rgb(43, 43, 115);
+    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.imagecontact {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 50px;
+}
+.Coordonnee {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.contacts {
+    color: white;
+    text-decoration: none;
+    font-family: 'Copperplate', 'Impact';
+}
+ul {
+    text-align: left;
+}
+footer {
+    text-align: center;
+    color: white;
+    box-sizing: inherit;
 }
 @media (max-width: 1320px){
     .AppercuProjetDB {
@@ -217,7 +294,7 @@ main {
 @media (max-width: 580px){
     .AppercuProjet {
         width: 40vw;
-        height: 40vh;
+        height: auto;
     }
     .AppercuPresentation {
         width: 40vw;
@@ -231,74 +308,4 @@ main {
         width: 40vw;
         height: auto;
     }
-}
-.CourteDescriptionProjet {
-    padding-top: 1em;
-    margin-inline: 1vw;
-}
-.CourteDescriptionProjets {
-    padding-top: 1em;
-    margin-inline: 1vw;
-    display: grid;
-}
-.BoutonsProjet {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.BoutonsProjetDouble {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.BoutonProjet {
-    max-width: 15vw;
-    min-width: 10vw;
-    padding: 10px;
-    background-color: #110c47;
-    border-radius: 5px;
-    font-family: Verdana;
-    text-shadow: 0.5px 0.5px 0.5px black;
-    color: white;
-    text-decoration: none;
-    margin: auto;
-    font-family: 'Copperplate', 'Impact';
-}
-.BoutonProjet:hover {
-    background-color: #0b082e;
-}
-.Contenu {
-    margin-inline: 5vw;
-}
-.Media {
-    text-align: center;
-    margin-inline: auto;
-    display: flex;
-}
-.Contact {
-    display: grid;
-    grid-template-rows: auto 1fr;
-}
-.Coordonnees {
-    padding: 3em;
-    text-align: left;
-    background: rgb(43, 43, 115);
-    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
-    width: 30vw;
-    margin: auto;
-}
-.imagecontact {
-    vertical-align: middle;
-    display: inline-block;
-    margin-right: 50px;
-}
-.contacts {
-    color: white;
-    text-decoration: none;
-}
-ul {
-    text-align: left;
-}
-footer {
-    text-align: center;
-    color: white;
-    box-sizing: inherit;
 }
