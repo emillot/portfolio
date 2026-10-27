@@ -4,11 +4,6 @@
   font-weight: 400;
   font-style: normal;
 }
-.spicy-rice-regular {
-  font-family: "Spicy Rice", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 .nabla {
   font-family: "Nabla", system-ui;
   font-optical-sizing: auto;
@@ -17,6 +12,11 @@
   font-variation-settings:
     "EDPT" 100,
     "EHLT" 12;
+}
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /**Styles**/
@@ -33,7 +33,7 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     box-sizing: inherit;
-    font-family: 'Fantasy';
+    font-family: 'arial';
 }
 header {
     background-color: rgba(10,10,10);
@@ -96,12 +96,10 @@ main {
     border-radius: 25px;
 }
 .Role {
-    color: darkgrey;
-    font-family: 'Spicy Rice';
+    font-family: 'Bungee Tint';
 }
 .MiniRole {
-    color: darkgrey;
-    font-family: 'Spicy Rice';
+    font-family: 'Bungee Tint';
     font-size: small;
 }
 .Sections {
