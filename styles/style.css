@@ -155,9 +155,19 @@ main {
     height: 25vw;
     margin: auto;
 }
+@media (max-width: 1320px){
+    .AppercuProjetDB {
+        min-width: 0px;
+        width: 25vw;
+        height: auto;
+    }
+}
 @media (max-width: 1210px){
     .SectionSprites {
         grid-template-columns: 1fr auto;
+    }
+    .Projets {
+        width: 80vw;
     }
 }
 @media (max-width: 1200px){
@@ -167,11 +177,47 @@ main {
     .SectionSprites {
         grid-template-columns: auto;
     }
-    
+    .AppercuProjet {
+        width: 40vw;
+        height: auto;
+    }
+    .AppercuVideoProjet {
+        height: auto;
+        width: 40vw;
+    } 
+    .AppercuPresentation {
+        width: 40vw;
+        height: auto;
+    }
+    .AppercuProjetDB {
+        width: 40vw;
+        height: auto;
+    }
 }
 @media (max-width: 840px){
     .Projet {
         grid-template-columns: auto;
+    }
+    .Projets {
+        width: 90vw;
+    }
+}
+@media (max-width: 580px){
+    .AppercuProjet {
+        width: 40vw;
+        height: 40vh;
+    }
+    .AppercuPresentation {
+        width: 40vw;
+        height: auto;
+    }
+    .AppercuProjetSupport {
+        width: 40vw;
+        margin: auto;
+    }
+    .AppercuProjetDB {
+        width: 40vw;
+        height: auto;
     }
 }
 .CourteDescriptionProjet {
