@@ -180,8 +180,7 @@ main {
     grid-template-columns: 1fr 1fr;
 }
 .BoutonProjet {
-    max-width: 15vw;
-    min-width: 10vw;
+    width: 125px;
     padding: 10px;
     background-color: #110c47;
     border-radius: 5px;
@@ -255,6 +254,9 @@ footer {
     .Aproposdemoi {
         width: 80vw;
     }
+    .Sections {
+        width: 80vw;
+    }
 }
 @media (max-width: 1200px){
     .Section {
@@ -290,22 +292,29 @@ footer {
     .Aproposdemoi {
         width: 90vw;
     }
+    .Sections {
+        width: 90vw;
+    }
 }
 @media (max-width: 580px){
     .AppercuProjet {
-        width: 40vw;
+        width: 60vw;
         height: auto;
     }
+    .AppercuVideoProjet {
+        height: auto;
+        width: 60vw;
+    } 
     .AppercuPresentation {
-        width: 40vw;
+        width: 60vw;
         height: auto;
     }
     .AppercuProjetSupport {
-        width: 40vw;
+        width: 60vw;
         margin: auto;
     }
     .AppercuProjetDB {
-        width: 40vw;
+        width: 60vw;
         height: auto;
     }
 }
