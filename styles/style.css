@@ -84,6 +84,10 @@ main {
     margin: auto;
     margin-inline: 10vw;
 }
+.DescriptionIntro {
+    text-align: left;
+    margin-inline: 10vw;
+}
 .Projets {
     background: rgb(43, 43, 115);
     background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
