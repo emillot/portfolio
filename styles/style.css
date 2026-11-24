@@ -83,16 +83,15 @@ main {
 }
 .Introduction {
     margin-inline: 10vw;
-    height: 100vh;
+    height: calc(100vh - 40px - 1.2em);
     display: grid;
-    grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
 }
 .Nom{
     margin-top: auto;
-    font-size: 5em;
+    font-size: 300%;
 }
 .Occupation {
-    font-size: 2em;
+    font-size: 200%;
 }
 .Indication {
     color: lightgrey;
@@ -359,5 +358,13 @@ footer {
     .AppercuProjetDB {
         width: 60vw;
         height: auto;
+    }
+}
+@media (max-width: 430px){
+    header {
+        font-size: 1em;
+    }
+    .Introduction {
+        height: calc(100vh - 40px - 1em);
     }
 }
