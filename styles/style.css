@@ -161,6 +161,7 @@ main {
 .AppercuPresentation {
     width: 25vw;
     margin: auto;
+    text-align: center;
 }
 .CourteDescriptionProjet p {
     text-align: left;
