@@ -87,11 +87,11 @@ main {
     display: grid;
 }
 .Nom{
-    margin-top: auto;
-    font-size: 300%;
+    margin-top: 25%;
+    font-size: 5em;
 }
 .Occupation {
-    font-size: 200%;
+    font-size: 2em;
 }
 .Indication {
     color: lightgrey;
