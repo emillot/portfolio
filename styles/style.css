@@ -1,29 +1,28 @@
 /**Fonts**/
-.bungee-spice-regular {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+  font-family:nabla;
+  src:url("../fonts/Nabla/Nabla-Regular-VariableFont_EDPT,EHLT.ttf");
 }
-.nabla {
-  font-family: "Nabla", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "EDPT" 100,
-    "EHLT" 12;
+@font-face {
+  font-family:bungee spice;
+  src:url("../fonts/Bungee_Spice/BungeeSpice-Regular.ttf");
 }
-.bungee-tint-regular {
-  font-family: "Bungee Tint", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+  font-family:bungee tint;
+  src:url("../fonts/Bungee_Tint/BungeeTint-Regular.ttf");
+}
+@font-face {
+  font-family:lilita one;
+  src:url("../fonts/Lilita_One/LilitaOne-Regular.ttf");
+}
+@font-face {
+  font-family:rubik;
+  src:url("../fonts/Rubik/Rubik-VariableFont_wght.ttf");
 }
 
 /**Styles**/
 body {
-    font-family: Verdana;
-    background: #0b082e;
-    background: radial-gradient(circle,rgba(11, 8, 46, 1) 0%, rgb(21, 29, 49) 87%, rgb(11, 34, 47) 100%);
+    background: #1a0332;
     color: rgb(255,255,255);
     margin: 0;
     padding: 0;
@@ -33,11 +32,10 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     box-sizing: inherit;
-    font-family: 'arial';
+    font-family: 'Rubik';
 }
 header {
-    background-color: rgba(10,10,10);
-    color: white;
+    background-color: #3B3077;
     font-size: larger;
     text-align: center;
     position:sticky;
@@ -48,7 +46,7 @@ header {
     box-sizing: inherit;
 }
 header .lien:hover {
-    color: rgb(138, 2, 2);
+    color: #c2a531;
 }
 li {
     list-style-type: none;
@@ -61,11 +59,13 @@ h1 {
     margin-inline: auto;
     padding: 8px;
     padding-bottom: 0;
-    font-family: 'Nabla';
+    font-family: 'Nabla', 'Copperplate';
+    color: Yellow;
 }
 h2 {
     margin: 0;
-    font-family: 'Bungee Spice';
+    font-family: 'Lilita One', 'Copperplate';
+    color: #e4b704;
 }
 .lien {
     color: white;
@@ -74,7 +74,7 @@ h2 {
 Header .lien {
     color: white;
     text-decoration:none;
-    font-family: 'Copperplate', 'Impact';
+    font-family: 'Lilita One', 'Impact';
 }
 main {
     display: grid;
@@ -89,8 +89,7 @@ main {
     margin-inline: 10vw;
 }
 .Projets {
-    background: rgb(43, 43, 115);
-    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    background: #3B3077;
     width: 60vw;
     display: grid;
     margin-inline: auto;
@@ -107,8 +106,7 @@ main {
     font-size: small;
 }
 .Sections {
-    background: rgb(43, 43, 115);
-    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    background: #3B3077;
     width: 60vw;
     display: grid;
     margin-inline: auto;
@@ -124,7 +122,8 @@ main {
     margin-inline: 3vw;
 }
 .ProjetTitre {
-    font-family: 'Bungee Spice';
+    font-family: 'Bungee Spice', 'Copperplate';
+    text-shadow: -1px -1px 1px black;
 }
 .Section {
     display: grid;
@@ -137,8 +136,10 @@ main {
     height: 25vw;
     margin: auto;
     object-fit: cover;
-    border-style: hidden;
+    border-style: solid;
     border-radius: 25px;
+    border-color: black;
+    border-width: 3Px;
 }
 .AppercuPresentation {
     width: 25vw;
@@ -170,8 +171,7 @@ main {
 .Aproposdemoi {
     width: 60vw;
     margin: auto;
-    background: rgb(43, 43, 115);
-    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    background: #3B3077;
     border-style: hidden;
     border-radius: 25px;
 }
@@ -201,17 +201,17 @@ main {
 .BoutonProjet {
     width: 125px;
     padding: 10px;
-    background-color: #110c47;
+    background-color: #c2a531;
     border-radius: 5px;
     font-family: Verdana;
     text-shadow: 0.5px 0.5px 0.5px black;
     color: white;
     text-decoration: none;
     margin: auto;
-    font-family: 'Copperplate', 'Impact';
+    font-family: 'Lilita One', 'Impact';
 }
 .BoutonProjet:hover {
-    background-color: #0b082e;
+    background-color: #937d26;
 }
 .Contenu {
     margin-inline: 5vw;
@@ -228,8 +228,7 @@ main {
 .Coordonnees {
     padding: 5vw;
     text-align: left;
-    background: rgb(43, 43, 115);
-    background: radial-gradient(circle,rgb(43, 43, 115) 0%, rgba(32, 43, 71, 1) 87%, rgba(15, 43, 59, 1) 100%);
+    background: #3B3077;
     margin: auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
