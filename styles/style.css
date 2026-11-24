@@ -63,24 +63,11 @@ h1 {
     font-family: 'Nabla', 'Copperplate';
     color: Yellow;
 }
-.Nom{
-    margin-top: 3em;
-    font-size: 5em;
-}
 h2 {
     margin: 0;
     font-family: 'Lilita One', 'Copperplate';
     color: #e4b704;
     text-shadow: 1px 1px 1px black;
-}
-.Occupation {
-    font-size: 2em;
-}
-.Indication {
-    color: lightgrey;
-    font-weight: lighter;
-    margin-top: 18vh;
-    margin-bottom: 3vh;
 }
 .lien {
     color: white;
@@ -93,11 +80,25 @@ Header .lien {
 }
 main {
     display: grid;
-    grid-template-rows: auto;
 }
 .Introduction {
-    margin: auto;
     margin-inline: 10vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+}
+.Nom{
+    margin-top: auto;
+    font-size: 5em;
+}
+.Occupation {
+    font-size: 2em;
+}
+.Indication {
+    color: lightgrey;
+    font-weight: lighter;
+    margin-top: auto;
+    font-size: small;
 }
 .DescriptionIntro {
     text-align: left;
@@ -338,24 +339,6 @@ footer {
         width: 90vw;
     }
 }
-@media (max-width: 1002px){
-    .Indication {
-        margin-top: 16vh;
-    }
-}
-@media (max-width: 940px){
-    .Indication {
-        margin-top: 14vh;
-    }
-}
-@media (max-width: 634px){
-    .Nom {
-        margin-top: 1em;
-    }
-    .Indication {
-        margin-top: 17vh;
-    }
-}
 @media (max-width: 580px){
     .AppercuProjet {
         width: 60vw;
@@ -376,25 +359,5 @@ footer {
     .AppercuProjetDB {
         width: 60vw;
         height: auto;
-    }
-}
-@media (max-width: 549px){
-    .Indication {
-        margin-top: 15vh;
-    }
-}
-@media (max-width: 504px){
-    .Indication {
-        margin-top: 13vh;
-    }
-}
-@media (max-width: 500px){
-    .Indication {
-        margin-top: 13vh;
-    }
-}
-@media (max-width: 499px){
-    .Nom {
-        margin-top: 0em;
     }
 }
