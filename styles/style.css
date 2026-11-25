@@ -392,6 +392,9 @@ footer {
     .Nom {
         font-size: 2.5em;
     }
+    .ProjetTitre {
+        font-size: 2em;
+    }
     .Occupation {
         font-size: 1.5em;
     }
@@ -399,6 +402,9 @@ footer {
 @media (max-height: 799px){
     .Nom {
         font-size: 2.5em;
+    }
+    .ProjetTitre {
+        font-size: 2em;
     }
     .Occupation {
         font-size: 1.5em;
