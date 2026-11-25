@@ -82,6 +82,10 @@ main {
     display: grid;
 }
 .Introduction {
+    margin: auto;
+    margin-inline: 10vw;
+}
+.IntroductionIndex {
     margin-inline: 10vw;
     height: calc(100vh - 40px - 1.2em);
     display: grid;
