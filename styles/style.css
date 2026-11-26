@@ -255,6 +255,7 @@ main {
 }
 .BoutonProjet:hover {
     background-color: #b6561b;
+    color: #c5bfba;
 }
 .Contenu {
     margin-inline: 5vw;
